@@ -129,7 +129,7 @@ class MainWindow(Gtk.Window):
     if which(self.vte.options.editor) != None:
       os.system(f"{self.vte.options.editor} config.py")
     else:
-      dialog = self.create_err_dialog("No editor found", f"Please make sure that "{self.vte.options.editor}" is installed and in your path!")
+      dialog = self.create_err_dialog("No editor found", f"Please make sure that {self.vte.options.editor} is installed and in your path!")
       dialog.run()
       dialog.destroy()
 

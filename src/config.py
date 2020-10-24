@@ -16,4 +16,4 @@ audible_bell = False
 
 # The default editor for termi to open the configuration file in 
 # when the configure button is pressed.
-editor = "code"
+editor = "mousepad"
